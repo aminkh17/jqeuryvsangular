@@ -1,4 +1,6 @@
-### Handson
+### Hand-ons
 
-In this repo I wish to create the same project in both [JQuery](jquery) and [Angular](angular)
+In this repo I'd like to create the same project result for both [JQuery](jquery) and [Angular](angular).
 
+* First see [JQuery](jquery) proect to understand what is the targets 
+* Then navigate to [Angular](angular) to learn more about Angular powers.

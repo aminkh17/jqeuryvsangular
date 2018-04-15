@@ -15,7 +15,9 @@ You will find three file as below:
 
 ## Introduction
 From the **Table** you can see a list with 5 column id, name, age, sex and action columns. 
+
 All the api comes from a public api user list. API Provided by [ui-grid.info](http://ui-grid.info)
+
 In the **action** column there are 2 links button names are View and Remove. Guess what they do.
 
 |ID |Name |Age |Sex |Action |

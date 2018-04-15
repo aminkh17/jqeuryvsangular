@@ -1,3 +1,4 @@
+
 <table class="table table-striped table-hover">
   <thead>
     <tr>
@@ -15,9 +16,30 @@
       <td>{{p.age}}</td>
       <td>{{p.gender}}</td>
       <td class="nowrap">
-        <button (click)="view(p)" class="btn btn-sm btn-info">View</button>
+        <button (click)="modal1.show(p)" class="btn btn-sm btn-info">View</button>
         <button (click)="remove(p)" class="btn btn-sm btn-danger">Remove</button>
       </td>
     </tr>
   </tbody>
 </table>
+
+ 
+ 
+    
+
+<app-modal #modal1>
+    <div class="app-modal-header">
+      Person Details
+    </div>
+    <div class="app-modal-body">
+        <p><b>ID:</b> <span >{{modal1.person.id}}</span></p>
+        <p><b>Name:</b> <span>{{modal1.person.name}}</span></p>
+        <p><b>Age:</b> <span>{{modal1.person.age}}</span></p>
+        <p><b>Sex:</b> <span>{{modal1.person.gender}}</span></p>
+ 
+    </div>
+    <div class="app-modal-footer">
+      <button type="button" class="btn btn-default" (click)="modal1.hide()">Close</button>
+    </div>
+</app-modal>
+  

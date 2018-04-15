@@ -16,8 +16,6 @@ export class ListComponent implements OnInit {
     this.ps.getAll().subscribe(pp => this.people = pp);
   }
 
-  view(p:any){
-  }
   remove(p:any){
     let c = confirm('Do you want to delete?');
     if(c)

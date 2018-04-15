@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { ListComponent } from './list/list.component';
 import { ViewComponent } from './view/view.component';
 import { MessagesComponent } from './messages/messages.component';
+import { ModalComponent } from './modal/modal.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { MessagesComponent } from './messages/messages.component';
     AppComponent,
     ListComponent,
     ViewComponent,
-    MessagesComponent
+    MessagesComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,

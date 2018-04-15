@@ -20,5 +20,5 @@ In the **action** column there are 2 links button names are View and Remove. Gue
 
 |ID |Name |Age |Sex |Action |
 |-------|-------|-------|-------|-------|
-|1 |John Smith |31 |Male |[view](view) [remove](remove) |
-|2 |Sarah Johnson |28 |Female |[view](view) [remove](remove) |
+|1 |John Smith |31 |Male |[view](#) [remove](#) |
+|2 |Sarah Johnson |28 |Female |[view](#) [remove](#) |

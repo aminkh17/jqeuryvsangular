@@ -10,7 +10,9 @@ You will find three file as below:
 3. fe_01.js
 
 *fe_01.html is just a HTML included codes*
+
 *fe_01_style.css contains all CSS codes*
+
 *fe_01.js contains all Javascript codes which all powered by jQuery*
 
 ## Introduction

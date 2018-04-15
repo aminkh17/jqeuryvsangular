@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="fe_01_style.css" type="text/css" />
+</head>
+<body>
+    <div class="content">
+        <div id="response-message" class="message">response message here</div>
+        <div class="datagrid">
+            <table id="gtable">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Sex</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+            </table>
+            
+        </div>
+    </div>
+
+    <div class="fullmodal">
+        <div class="modal">
+            <p><b>ID:</b> <span id="pid"></span></p>
+            <p><b>Name:</b> <span id="pname"></span></p>
+            <p><b>Age:</b> <span id="page"></span></p>
+            <p><b>Sex:</b> <span id="psex"></span></p>
+        <br>
+            <button type="button">
+                Close
+            </button>
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="fe_01.js"></script>
+</body>
+</html>
